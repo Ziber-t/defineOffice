@@ -1,0 +1,24 @@
+﻿<Window x:Class="Define.UI2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Define.UI2"
+        mc:Ignorable="d"
+        Title="previev" Height="640" Width="1230" MouseDown="Window_MouseDown">
+        <Window.Resources>
+            <ResourceDictionary>
+                <ResourceDictionary.MergedDictionaries>
+                    <ResourceDictionary Source="Resources/Styles/MainWindow.xaml"/>
+                </ResourceDictionary.MergedDictionaries>
+            </ResourceDictionary>
+        </Window.Resources>
+
+    <Grid Style="{StaticResource  mainGrid}">
+        <Button Style="{StaticResource btnStyle}" Margin="83,10,1039,569" Content="Show1" Click="Button_Click"></Button>
+        <Button Style="{StaticResource btnStyle}" Margin="204,10,918,569" Content="Show2" Click="Button_Click_1"></Button>
+        <Button Style="{StaticResource btnStyle}" Content="Show3" Margin="335,10,787,569" Click="Button_Click_2"></Button>
+        <Button Style="{StaticResource btnStyle}" Content="Show4" Margin="469,10,653,569" Click="Button_Click_3"></Button>
+        <TextBox Style="{StaticResource textBlockStyle}" TextWrapping="Wrap" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." Margin="83,62,139,347" Background="{x:Null}"></TextBox>
+    </Grid>
+</Window>

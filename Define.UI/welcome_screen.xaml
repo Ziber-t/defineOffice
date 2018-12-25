@@ -1,0 +1,63 @@
+﻿<UserControl x:Class="Define.UI.Welcome"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Define.UI"
+             mc:Ignorable="d" 
+             d:DesignHeight="640" d:DesignWidth="1230">
+    <Grid
+        Background="#fff">
+        <TextBlock 
+            TextBlock.FontFamily="Helvetica" 
+            Foreground="Black" 
+            FontSize="42" 
+            Width="455"
+            Height="50"
+            TextAlignment="Center"
+            Margin="0 50 0 0">Welcome in Defeyne</TextBlock>
+        <TextBlock  
+            Foreground="#09141D" 
+            FontSize="16" 
+            Width="455"
+            Height="20"
+            TextAlignment="Center"
+            Margin="388,366,387,254" FontFamily="Calibri">we will go throught the whole document and find all definitions</TextBlock>
+        <Button
+            Width="455"
+            Height="60"
+            Margin="0 220 0 0"
+            Background="#03005E"
+            BorderBrush="#03005E"
+            TextBlock.FontSize="16px"
+            TextBlock.FontFamily="Helvetica-Bold"
+            Content="Find Definitions"
+            Foreground="White" FontFamily="Helvetica" Cursor="Hand">
+
+        </Button>
+        <Button
+            Width="455"
+            Height="60"
+            Margin="0 370 0 0"
+            Background="White"
+            BorderBrush="#03005E"
+            TextBlock.FontSize="16px"
+            TextBlock.FontFamily="Helvetica-Bold"
+            Content="Do it later"
+            Foreground="#03005E" FontFamily="Helvetica" Cursor="Hand">
+
+        </Button>
+        <Grid>
+            <Image Source="Resources/welcom.png" Stretch="Fill" StretchDirection="DownOnly" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="-110"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </Grid>
+</UserControl>

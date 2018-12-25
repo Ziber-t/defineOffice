@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="Define.UI.popUpAdvice"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Define.UI"
+             mc:Ignorable="d" 
+             d:DesignHeight="180" d:DesignWidth="535">
+    <Grid Background="#ffffff">
+        <Label Width="510" Height="25" HorizontalAlignment="Center" VerticalAlignment="top" Background="#F2F2F7" Margin="0 25 0 0" Content="Secured facilities" FontFamily="Verdana" FontWeight="Black"></Label>
+        <Label Margin="0 45 0 0" Width="510">
+            <Label.Content>
+                <AccessText TextWrapping="Wrap" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries," FontFamily="Verdana"/>
+            </Label.Content>
+        </Label>
+        <Border CornerRadius="4" Margin="387,0,12.667,11"  Width="135" Height="17" BorderThickness="1" BorderBrush="#03005E" VerticalAlignment="Bottom">
+            <Button Foreground="#03005E" Background="white" FontFamily="Verdana" BorderThickness="0"  Width="120" Height="14" FontSize="10" VerticalAlignment="Center">Go to definition</Button>
+        </Border>
+        <Border CornerRadius="4" Margin="97,0,12.667,11"  Width="135" Height="17" BorderThickness="1" BorderBrush="#03005E" VerticalAlignment="Bottom">
+            <Button Foreground="#03005E" Background="white" FontFamily="Verdana" BorderThickness="0"  Width="120" Height="14" FontSize="10" Content="Check where used (88)"/>
+        </Border>
+    </Grid>
+</UserControl>

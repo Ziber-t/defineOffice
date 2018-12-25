@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="Define.UI.popupSearchBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Define.UI"
+             mc:Ignorable="d" 
+             d:DesignHeight="255" d:DesignWidth="570">
+    <Grid
+        Background="Transparent">
+        <Border Name="radialMask" CornerRadius="10" Background="White" />
+        <Border Width="475" Height="25" Margin="5 12 10 5" Padding="15 4 4 0" BorderThickness="1" BorderBrush="#03005E" Background="white" CornerRadius="10" HorizontalAlignment="Right" VerticalAlignment="Top">
+            <TextBlock Text="Lorem ipsum" FontFamily="Verdana" FontSize="12px"/>
+        </Border>
+        <Expander Header="Secured facilities" HorizontalAlignment="Center" Height="100" Margin="19,42,9,0" VerticalAlignment="Top" Width="545" Background="#F2F2F7" IsExpanded="True">
+            <Grid Background="#FFFFFF">
+                <Label>
+                    <Label.Content>
+                        <AccessText TextWrapping="Wrap" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries," FontFamily="Verdana"/>
+                    </Label.Content>
+                </Label>
+            </Grid>
+        </Expander>
+        <Expander Foreground="#03005E" Header="Secured facilities" HorizontalAlignment="Center" Height="100" Margin="18,145,8,0" VerticalAlignment="Top" Width="544" Background="#F5DBFB">
+            <Grid Background="#FFFFFF">
+                <Label>
+                    <Label.Content>
+                        <AccessText TextWrapping="Wrap" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries," FontFamily="Verdana"/>
+                    </Label.Content>
+                </Label>
+            </Grid>
+        </Expander>
+        <Expander Foreground="#03005E" Header="Secured facilities" HorizontalAlignment="Center" Height="100" Margin="18,250,7,-95.333" VerticalAlignment="Top" Width="545" Background="#D0D8FF" >
+            <Grid Background="#FFFFFF">
+                <Label>
+                    <Label.Content>
+                        <AccessText TextWrapping="Wrap" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries," FontFamily="Verdana"/>
+                    </Label.Content>
+                </Label>
+            </Grid>
+        </Expander>
+
+    </Grid>
+</UserControl>

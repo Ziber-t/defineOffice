@@ -1,0 +1,16 @@
+C:\NETpr\define_work\Define.Finder\bin\Debug\Define.Tokenizer.dll.config
+C:\NETpr\define_work\Define.Finder\bin\Debug\Define.Tokenizer.dll
+C:\NETpr\define_work\Define.Finder\bin\Debug\Define.Tokenizer.pdb
+C:\NETpr\define_work\Define.Finder\bin\Debug\Define.Common.dll
+C:\NETpr\define_work\Define.Finder\bin\Debug\DocumentFormat.OpenXml.dll
+C:\NETpr\define_work\Define.Finder\bin\Debug\log4net.dll
+C:\NETpr\define_work\Define.Finder\bin\Debug\Pluralize.NET.dll
+C:\NETpr\define_work\Define.Finder\bin\Debug\Define.Common.pdb
+C:\NETpr\define_work\Define.Finder\bin\Debug\DocumentFormat.OpenXml.xml
+C:\NETpr\define_work\Define.Finder\bin\Debug\log4net.xml
+C:\NETpr\define_work\Define.Finder\obj\Debug\Define.Tokenizer.csprojAssemblyReference.cache
+C:\NETpr\define_work\Define.Finder\obj\Debug\Define.Tokenizer.csproj.CoreCompileInputs.cache
+C:\NETpr\define_work\Define.Finder\obj\Debug\Define.Tokenizer.csproj.CopyComplete
+C:\NETpr\define_work\Define.Finder\obj\Debug\Define.Tokenizer.dll
+C:\NETpr\define_work\Define.Finder\obj\Debug\Define.Tokenizer.pdb
+g:\NET\defineOffice\defineOffice\Define.Finder\obj\Debug\Define.Tokenizer.csprojResolveAssemblyReference.cache
